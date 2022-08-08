@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f0b1640e570454d8420a",
+    "revision": "27822d1dc66d05285876",
     "url": "/css/about.eff3667c.css"
   },
   {
@@ -80,10 +80,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/img/email-marketing-restaurant-local.881050a3.jpg"
   },
   {
-    "revision": "242bc982a2f1ef0e7da82267097ad5ce",
-    "url": "/img/fb-web-apps.242bc982.jpg"
-  },
-  {
     "revision": "36a5b6afca376958dd33352104919bde",
     "url": "/img/final-logo-nsi.36a5b6af.png"
   },
@@ -138,10 +134,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e17fcc3acbbe95552bf4b40b3ab9c4fc",
     "url": "/img/mobile-pos-apps.e17fcc3a.jpg"
-  },
-  {
-    "revision": "01c998ea487cf8c1f57efa14014a05b1",
-    "url": "/img/mobile-restaurant-delivery.01c998ea.jpg"
   },
   {
     "revision": "71983a0f96d1862c007bd95411738976",
@@ -252,16 +244,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/img/yumapos-restaurant2.57f78d71.jpg"
   },
   {
-    "revision": "6cc3e9b153fe29d2df9660316c4258b3",
+    "revision": "b3e720894d832ddb678713c9924843df",
     "url": "/index.html"
   },
   {
-    "revision": "f0b1640e570454d8420a",
-    "url": "/js/about.cbc3e1d7.js"
+    "revision": "27822d1dc66d05285876",
+    "url": "/js/about.845e665c.js"
   },
   {
-    "revision": "f7dcc25fb629c63650ee",
-    "url": "/js/app.2817013b.js"
+    "revision": "3fbd7123933211b0412e",
+    "url": "/js/app.617ed262.js"
   },
   {
     "revision": "f302db849f8e5890df3a",

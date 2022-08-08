@@ -16,7 +16,7 @@
               Net Studios Inc.
             </v-list-item-title>
             <v-list-item-subtitle>
-              IT-On-Demand Marketplace
+              Remote IT-On-Demand Services
             </v-list-item-subtitle>
           </v-list-item-content>
         </v-list-item>
@@ -88,8 +88,8 @@
           <v-btn exact router to="/small-business-consultants">IT ON-DEMAND SERVICES</v-btn>
           <v-btn exact router to="/ItMarketplace">IT MARKETPLACE</v-btn>
           <v-btn exact router to="/how-it-works">HOW IT WORKS</v-btn>
-          <v-btn exact router to="/small-business-IT-OnDemand-Faq">FAQ</v-btn>
-          <v-btn color="primary" exact router to="/get-started">START NOW</v-btn>
+          <v-btn exact router to="/it-subscription">PRICING</v-btn>
+          <v-btn color="primary" exact router to="/get-started">POST PROJECT</v-btn>
         </v-toolbar-items>
       </v-app-bar>
       <v-main>
@@ -97,14 +97,10 @@
       </v-main>
       <v-footer :inset="footer.inset" app dense>
         <span class="px-4 flex caption font-weight-light"
-          >&copy; {{ new Date().getFullYear() }} Net Studios Inc. | (803) 509-0090 | Net Studios Inc. is a marketplace that provides small businesses with a USA-based dedicated project manager to outsource projects —including web development, graphic design, software, writing, and more —from our global pool of talent.
+          >&copy; {{ new Date().getFullYear() }} Net Studios Inc. | (803) 509-0090
 
-          <router-link to="/privacy"> Privacy</router-link>|<router-link
-            to="/license"
-          >
-            License</router-link
-          >|<router-link to="/terms"> Terms</router-link></span
-        >
+          <router-link to="/privacy"> Privacy</router-link> | |<router-link to="/terms"> Terms</router-link> | <router-link to="/license"> Become A Partner</router-link>
+        </span>
         <!--<v-col cols="12" sm="12" md="6">
         <v-btn
           absolute
@@ -146,17 +142,17 @@ export default {
       },
       {
         icon: "list_alt",
-        title: "How It Works",
+        title: "HOW IT WORKS",
         to: "/how-it-works"
       },
       {
         icon: "loyalty",
-        title: "Pricing",
-        to: "/it-subscription"
+        title: "FAQ'S",
+        to: "/small-business-IT-OnDemand-Faq"
       },
       {
         icon: "login",
-        title: "Get Started",
+        title: "POST PROJECT",
         to: "/get-started"
       }
     ],
@@ -167,7 +163,17 @@ export default {
         to: "/ticket"
       },
       { icon: "phone", title: "(003) 509-0090", to: "/get-started" },
-      { icon: "email", title: "hello@netstudiosinc.com", to: "/it-subscription" }
+      { icon: "email", title: "hello@netstudiosinc.com", to: "/it-subscription" },
+      {
+        icon: "login",
+        title: "Join Our Global IT Network",
+        to: "/it-experts"
+      },
+      {
+        icon: "login",
+        title: "Business Advisors",
+        to: "/it-experts"
+      }
     ],
     drawers: ["Default (no property)", "Permanent", "Temporary"],
     primaryDrawer: {

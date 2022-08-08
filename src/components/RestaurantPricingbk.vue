@@ -5,7 +5,7 @@
         <v-row justify="center">
           <v-col class="text-center pt-5 pb-5" cols="12">
             <div class="flex display-1 font-weight-light">
-              Dedicated IT Management For Small Business
+              Remote IT Services For Small Business
             </div>
             <div class="flex subheading  font-weight-light">
               Net Studios services provides USA based project managers, business advisors, project planning, IT sourcing, end-to-end project management, marketing experts and IT consulting services for your IT/software and web design project.

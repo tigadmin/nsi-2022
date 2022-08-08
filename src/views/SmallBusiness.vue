@@ -6,7 +6,6 @@
 </template>
 
 <script>
-
 import HelloBot2 from "@/components/HelloBot2.vue";
 import HelloWorld1 from "@/components/HelloWorld1";
 

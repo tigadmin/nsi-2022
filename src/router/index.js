@@ -89,7 +89,7 @@ const routes = [
     name: "startri",
     meta: { requiresAuth: true },
     beforeEnter() {
-      location.href = "https://share.hsforms.com/12vflAdSPTRytkXpPVe2WtQ42zg1";
+      location.href = "http://market.netstudiosinc.com/account/info";
     }
   },
   {
@@ -100,10 +100,10 @@ const routes = [
     }
   },
   {
-    path: "/greenville-sc-italian-restaurant",
+    path: "/it-marketplace",
     target: "_blank",
     beforeEnter() {
-      location.href = "https://www.briosopasta.com";
+      location.href = "http://market.netstudiosinc.com/";
     }
   },
   {
@@ -150,7 +150,7 @@ const routes = [
     target: "_blank",
     beforeEnter() {
       location.href =
-        "https://www.yumapos.com/restaurant-pos/software-licensing/";
+        "http://market.netstudiosinc.com/vendor/apply";
     }
   },
   {
@@ -187,6 +187,14 @@ const routes = [
     beforeEnter() {
       location.href =
         "https://meetings.hubspot.com/jason97?_ga=2.202697877.580962950.1593951101-228482065.1591022274";
+    }
+  },
+  {
+    path: "/it-experts",
+    target: "_blank",
+    beforeEnter() {
+      location.href =
+          "https://forms.monday.com/forms/efdeb56beee9dc8fae6fa5961fa29297?r=use1";
     }
   },
   {

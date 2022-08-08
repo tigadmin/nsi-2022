@@ -1,6 +1,6 @@
 <template>
   <div class="restaurant-marketing">
-    <RestaurantTech3 />
+    <RestaurantTech4 />
     <HelloBot2 />
   </div>
 </template>
@@ -8,7 +8,7 @@
 <script>
 
 import HelloBot2 from "@/components/HelloBot2.vue";
-import RestaurantTech3 from "@/components/RestaurantTech3.vue";
+import RestaurantTech4 from "@/components/RestaurantTech4.vue";
 
 export default {
   mounted() {
@@ -16,7 +16,7 @@ export default {
   },
   name: "ItMarketplace",
   components: {
-    RestaurantTech3,
+    RestaurantTech4,
     HelloBot2
   }
 };

@@ -39,7 +39,7 @@
               </v-img>
               <v-card-title class="headline">Project Manager</v-card-title>
               <v-card-text class="subheading grey--text text--darken-1">
-                Select your dedicated USA based IT project manager.
+                You will be assigned to dedicated USA based IT project manager.
               </v-card-text>
               <!--<v-card-actions>
                                             <router-link to="/localwebsitedesign/"><v-btn aria-label="local websites"  color="teal">Local Websites</v-btn></router-link>
@@ -55,9 +55,9 @@
                 src="@/assets/restaurant-chef-order.jpg"
               >
               </v-img>
-              <v-card-title class="headline">Post Project</v-card-title>
+              <v-card-title class="headline">Define Project</v-card-title>
               <v-card-text class="subheading grey--text text--darken-1">
-                Define your project for posting to the marketplace.
+                Work with your project manager to define your project requirements.
               </v-card-text>
             </v-card>
           </v-flex>
@@ -70,7 +70,7 @@
                 src="@/assets/order-complete.jpeg"
               >
               </v-img>
-              <v-card-title class="headline">Subscription</v-card-title>
+              <v-card-title class="headline">Block Of Time</v-card-title>
               <v-card-text class="subheading grey--text text--darken-1">
                 Purchase a block of time required to get your project done right.
               </v-card-text>

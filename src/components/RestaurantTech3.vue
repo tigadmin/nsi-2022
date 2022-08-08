@@ -5,7 +5,7 @@
         <v-row justify="center">
           <v-col class="text-center pt-5 pb-5" cols="12">
             <div class="flex display-1 font-weight-light">
-              Small Business IT Marketplace
+              Small Business It-On-Demand Services
             </div>
             <div class="flex subheading font-weight-light">
               Net Studios Inc. mission is to improve the way companies buy and manage IT services. We provide small business with a pool of global IT talent managed by a USA project manager that increases productivity and reduces cost. We offers solutions for both large enterprises and small businesses.
@@ -21,35 +21,36 @@
             <v-card>
               <!--suppress HtmlUnknownTarget -->
               <v-img
-                alt="Small Business It Services"
-                contain
-                src="@/assets/subscribe.jpg"
+                  alt="Small Business IT Projects"
+                  contain
+                  src="@/assets/post-it-project.jpg"
               >
               </v-img>
-              <v-card-title class="headline">Buy Subscription</v-card-title>
+              <v-card-title class="headline"
+              >Project Scope
+              </v-card-title>
               <v-card-text class="subheading grey--text text--darken-1">
-                Your Net Studios subscriptions gives you access to a global team of experts all lead by a USA project manager.
+                Work with your USA based project manager to get a detailed description of your expectations and what you want delivered when the project is completed.
               </v-card-text>
             </v-card>
           </v-flex>
-
           <v-flex md4 xs12>
             <v-card>
               <!--suppress HtmlUnknownTarget -->
               <v-img
-                alt="Small Business IT Projects"
-                contain
-                src="@/assets/post-it-project.jpg"
+                  alt="Small Business It Services"
+                  contain
+                  src="@/assets/subscribe.jpg"
               >
               </v-img>
-              <v-card-title class="headline"
-                >Post Your Project
-              </v-card-title>
+              <v-card-title class="headline">IT Services On-Demand </v-card-title>
               <v-card-text class="subheading grey--text text--darken-1">
-                Give a detailed description of your expectations and what you want delivered when the project is completed.
+                Buy IT services on-demand as you need them, all managed by a dedicated USA based project manager.
               </v-card-text>
             </v-card>
           </v-flex>
+
+
           <v-flex md4 xs12>
             <v-card>
               <!--suppress HtmlUnknownTarget -->
@@ -59,9 +60,9 @@
                 src="@/assets/usa-project-manager.jpg"
               >
               </v-img>
-              <v-card-title class="headline">It Experts</v-card-title>
+              <v-card-title class="headline">Start Project</v-card-title>
               <v-card-text class="subheading grey--text text--darken-1">
-                The NSI team of USA based IT experts will manage your project for you. We are here when you need us and here when you don't.
+                The NSI team of USA based IT project managers will manage your project for you. We are here when you need us and here when you don't.
               </v-card-text>
             </v-card>
           </v-flex>

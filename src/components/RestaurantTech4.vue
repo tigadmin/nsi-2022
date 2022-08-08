@@ -1,18 +1,14 @@
 <template>
-  <section class="pb-5 pt-5">
+  <section class="grey lighten-5 pb-5 pt-5">
     <v-container grid-list-md light text-xs-center>
       <v-layout align-center row wrap>
         <v-row justify="center">
           <v-col class="text-center pt-5 pb-5" cols="12">
             <div class="flex display-1 font-weight-light">
-              Branded Web & Mobile Apps Included
+              Small Business IT Marketplace
             </div>
             <div class="flex subheading font-weight-light">
-              Restaurant Image provides each advertiser with a Web app, Android,
-              and iOS mobile app, which is displayed to users when they click on
-              your listing. The apps are branded to your restaurant and contain
-              your address, store hours, a map, online ordering capabilities,
-              tracking and more.
+              Net Studios Inc. mission is to improve the way companies buy and manage IT services. We provide small business with a pool of global IT talent managed by a USA project manager that increases productivity and reduces cost. We offers solutions for both large enterprises and small businesses.
             </div>
           </v-col>
         </v-row>
@@ -21,87 +17,19 @@
     <v-flex xs12>
       <v-container grid-list-xl>
         <v-layout align-center row wrap>
-          <v-flex md4 xs12>
-            <v-card>
-              <v-img
-                alt="Mobile Apps"
-                contain
-                src="@/assets/restaurant-mobile-apps-ri.jpg"
-              >
-              </v-img>
-              <v-card-title class="headline">Mobile Apps</v-card-title>
-              <v-card-text class="subheading grey--text text--darken-1">
-                Integrated mobile apps enable online orders, upsells, customer
-                loyalty while encouraging repeat visits.
-              </v-card-text>
-              <!--<v-card-actions>
-                                            <router-link to="/localwebsitedesign/"><v-btn aria-label="local websites"  color="teal">Local Websites</v-btn></router-link>
-                                          </v-card-actions>-->
-            </v-card>
-          </v-flex>
-          <v-flex md4 xs12>
-            <v-card>
-              <!--suppress HtmlUnknownTarget -->
-              <v-img
-                alt="Mobile Apps POS"
-                contain
-                src="@/assets/fb-web-apps.jpg"
-              >
-              </v-img>
-              <v-card-title class="headline">Web Apps</v-card-title>
-              <v-card-text class="subheading grey--text text--darken-1">
-                Web Apps, similar to mobile apps, are built for desktop users.
-                Providing a reliable, fast & engaging experience.
-              </v-card-text>
-            </v-card>
-          </v-flex>
-          <v-flex md4 xs12>
-            <v-card>
-              <!--suppress HtmlUnknownTarget -->
-              <v-img
-                alt="Mobile Apps POS"
-                contain
-                src="@/assets/online-ordering-restaurant-web-design.jpg"
-              >
-              </v-img>
-              <v-card-title class="headline">Online Orders</v-card-title>
-              <v-card-text class="subheading grey--text text--darken-1">
-                Customers can easily place online orders, re-orders, view order
-                history, collect loyalty points and more.
-              </v-card-text>
-            </v-card>
-          </v-flex>
 
           <v-flex md4 xs12>
             <v-card>
               <!--suppress HtmlUnknownTarget -->
               <v-img
-                alt="Digital Marketing Tools"
-                contain
-                src="@/assets/mobile-restaurant-delivery.jpg"
+                  alt="USA IT Project Manager"
+                  contain
+                  src="@/assets/usa-project-manager.jpg"
               >
               </v-img>
-              <v-card-title class="headline">Takeout & Delivery</v-card-title>
+              <v-card-title class="headline">Managed IT Services</v-card-title>
               <v-card-text class="subheading grey--text text--darken-1">
-                Customers can place takeout/delivery orders using any mobile
-                device. This eliminates the need for calling to place orders.
-              </v-card-text>
-            </v-card>
-          </v-flex>
-          <v-flex md4 xs12>
-            <v-card>
-              <!--suppress HtmlUnknownTarget, HtmlUnknownTarget -->
-              <v-img
-                alt="Website POS"
-                contain
-                src="@/assets/online-ordering-terminal-restaurant.jpg"
-              >
-              </v-img>
-              <v-card-title class="headline">Touchless Payments</v-card-title>
-              <v-card-text class="subheading grey--text text--darken-1">
-                Offer the convenience of touchless payment options including
-                curbside pickup, takeout, and contactless delivery. All payments
-                are sent direct to your bank.
+                Including website designers, graphic designers, copywriters, social media experts, consultants and more.
               </v-card-text>
             </v-card>
           </v-flex>
@@ -109,32 +37,49 @@
             <v-card>
               <!--suppress HtmlUnknownTarget -->
               <v-img
-                alt="Website POS"
-                contain
-                src="@/assets/mobile-pos-apps.jpg"
+                  alt="Small Business It Services"
+                  contain
+                  src="@/assets/subscribe.jpg"
               >
               </v-img>
-              <v-card-title class="headline">Loyalty & Gift Cards</v-card-title>
+              <v-card-title class="headline">USA Project Manager</v-card-title>
               <v-card-text class="subheading grey--text text--darken-1">
-                Customers earn rewards for purchases and can purchase gift cards
-                online to use with online ordering.
+                The NSI team of USA based IT experts will manage your project for you. We are here when you need us.
               </v-card-text>
             </v-card>
           </v-flex>
+
+
+          <v-flex md4 xs12>
+            <v-card>
+              <!--suppress HtmlUnknownTarget -->
+              <v-img
+                  alt="Small Business It Services"
+                  contain
+                  src="@/assets/subscribe.jpg"
+              >
+              </v-img>
+              <v-card-title class="headline">IT On-Demand</v-card-title>
+              <v-card-text class="subheading grey--text text--darken-1">
+                All services done remotly as you need them. It's like having a full IT team in the cloud without the cost.
+              </v-card-text>
+            </v-card>
+          </v-flex>
+
         </v-layout>
-        <div class="text-xs-center pt-5 pb-5">
+        <div class="grey lighten-5 text-xs-center pt-5 pb-5">
           <v-flex xs12>
             <v-container grid-list-xl>
               <v-layout align-center column justify-center>
                 <div class="text-xs-center pb-5 pt-5">
-                  <router-link to="/faq-corona-19-restaurants">
+                  <router-link to="/it-marketplace">
                     <v-btn
-                      aria-label="Restaurant Technology"
-                      color="primary"
-                      dark
-                      rounded
+                        aria-label="Website Pricing"
+                        color="primary"
+                        dark
+                        rounded
                     >
-                      View Frequently Asked Questions
+                      ENTER MARKETPLACE -->
                     </v-btn>
                   </router-link>
                 </div>
@@ -143,13 +88,30 @@
           </v-flex>
         </div>
       </v-container>
+      <!-- <v-container grid-list-md light text-xs-center>
+         <v-layout align-center row wrap>
+           <v-flex xs12>
+             <v-row justify="center">
+               <v-card class="elevation-0 transparent ma-5">
+                 <v-img
+                   alt="Restaurant Marketing Online Ordering"
+                   src="@/assets/info-graphic-icons.png"
+                   contain
+                   max-width="300px"
+                 >
+                 </v-img>
+               </v-card>
+             </v-row>
+           </v-flex>
+         </v-layout>
+       </v-container>-->
     </v-flex>
   </section>
 </template>
 
 <script>
 export default {
-  name: "RestaurantTech"
+  name: "RestaurantTech4.vue"
 };
 </script>
 
