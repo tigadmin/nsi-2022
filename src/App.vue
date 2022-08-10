@@ -85,11 +85,11 @@
           <!--<v-btn exact router to="/restaurant-mobile-web-apps"
             >Restaurant Suite&trade;
           </v-btn>-->
-          <v-btn exact router to="/small-business-consultants">IT ON-DEMAND SERVICES</v-btn>
-          <v-btn exact router to="/ItMarketplace">IT MARKETPLACE</v-btn>
+          <v-btn exact router to="/small-business-consultants">IT ON-DEMAND</v-btn>
+          <v-btn exact router to="/ItMarketplace">IT SERVICES</v-btn>
           <v-btn exact router to="/how-it-works">HOW IT WORKS</v-btn>
           <v-btn exact router to="/it-subscription">PRICING</v-btn>
-          <v-btn color="primary" exact router to="/get-started">POST PROJECT</v-btn>
+          <v-btn color="primary" exact router to="/get-started">GET A QUOTE</v-btn>
         </v-toolbar-items>
       </v-app-bar>
       <v-main>
@@ -146,13 +146,8 @@ export default {
         to: "/how-it-works"
       },
       {
-        icon: "loyalty",
-        title: "FAQ'S",
-        to: "/small-business-IT-OnDemand-Faq"
-      },
-      {
         icon: "login",
-        title: "POST PROJECT",
+        title: "GET QUOTE",
         to: "/get-started"
       }
     ],

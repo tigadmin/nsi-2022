@@ -9,99 +9,16 @@
                 How It Works
               </div>
               <div class="flex subheading font-weight-light">
-                Net Studios Inc. is a marketplace that provides small businesses with a dedicated business advisor, IT director, and USA based project manager to outsource projects —including web development, graphic design, software, writing, and more —all from our certified global pool of talent.
+                IT-ON-DEMAND solutions are designed to help your business plan, build,  and deploy multi-channel solutions utilizing technology channels with minimized risks for rapid growth and success.
+                Our team brings 23+ years of experience to the table, which is vital for any business, especially if you're not technologically savvy.
               </div>
             </div>
           </v-flex>
-          <v-flex md3 xs12>
-            <v-card>
-              <!--suppress HtmlUnknownTarget -->
-              <v-img
-                alt="Restaurant Search Engine Marketing Mobile Apps"
-                contain
-                src="@/assets/create-account.jpg"
-              >
-              </v-img>
-              <v-card-title class="headline">Create Account</v-card-title>
-              <v-card-text class="subheading grey--text text--darken-1">
-                Start the process by registering and creating a buyer account.
-              </v-card-text>
-            </v-card>
-          </v-flex>
-          <v-flex md3 xs12>
-            <v-card>
-              <!--suppress HtmlUnknownTarget -->
-              <v-img
-                alt="Restaurant Direct Mailers Mail"
-                contain
-                src="@/assets/restaurant-app3.jpg"
-              >
-              </v-img>
-              <v-card-title class="headline">Project Manager</v-card-title>
-              <v-card-text class="subheading grey--text text--darken-1">
-                You will be assigned to dedicated USA based IT project manager.
-              </v-card-text>
-              <!--<v-card-actions>
-                                            <router-link to="/localwebsitedesign/"><v-btn aria-label="local websites"  color="teal">Local Websites</v-btn></router-link>
-                                          </v-card-actions>-->
-            </v-card>
-          </v-flex>
-          <v-flex md3 xs12>
-            <v-card>
-              <!--suppress HtmlUnknownTarget, HtmlUnknownTarget -->
-              <v-img
-                alt="Restaurant Customer Places Order"
-                contain
-                src="@/assets/restaurant-chef-order.jpg"
-              >
-              </v-img>
-              <v-card-title class="headline">Define Project</v-card-title>
-              <v-card-text class="subheading grey--text text--darken-1">
-                Work with your project manager to define your project requirements.
-              </v-card-text>
-            </v-card>
-          </v-flex>
-          <v-flex md3 xs12>
-            <v-card>
-              <!--suppress HtmlUnknownTarget -->
-              <v-img
-                alt="Restaurant Customer Places Order"
-                contain
-                src="@/assets/order-complete.jpeg"
-              >
-              </v-img>
-              <v-card-title class="headline">Block Of Time</v-card-title>
-              <v-card-text class="subheading grey--text text--darken-1">
-                Purchase a block of time required to get your project done right.
-              </v-card-text>
-            </v-card>
-          </v-flex>
         </v-layout>
-        <div class="text-xs-center pt-5 pb-5">
-          <v-flex xs12>
-            <v-container grid-list-xl>
-              <v-layout align-center column justify-center>
-                <div class="text-xs-center pb-5 pt-5">
-                  <router-link to="/small-business-IT-OnDemand-Faq">
-                    <v-btn
-                      aria-label="Small Business IT On DEMAND"
-                      color="primary"
-                      dark
-                      rounded
-                    >
-                      VIEW FAQ's -->
-                    </v-btn>
-                  </router-link>
-                </div>
-              </v-layout>
-            </v-container>
-          </v-flex>
-        </div>
       </v-container>
     </div>
   </section>
 </template>
-
 <script>
 export default {
   mounted() {

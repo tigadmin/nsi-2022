@@ -1,19 +1,8 @@
 <template>
   <section class="pb-5 pt-5">
-    <div class="grey lighten-5 text-xs-center">
+    <div class="text-xs-center">
       <v-container grid-list-md light text-xs-center>
         <v-layout align-center row wrap>
-          <v-flex xs12>
-            <div class="text-xs-center ma-5 pt-5 pb-5">
-              <div class="flex display-1 font-weight-light pb-3">
-                7 Steps For Success
-              </div>
-              <div class="flex subheading font-weight-light">
-                Your all-inclusive fully managed digital marketing company
-                specifically designed for restaurants.
-              </div>
-            </div>
-          </v-flex>
           <v-flex md6 xs12>
             <v-img
               aspect-ratio="1"
