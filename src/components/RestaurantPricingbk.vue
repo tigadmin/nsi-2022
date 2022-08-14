@@ -8,7 +8,7 @@
               Remote IT Services For Small Business
             </div>
             <div class="flex subheading  font-weight-light">
-              Net Studios services provides USA based project managers, business advisors, project planning, IT sourcing, end-to-end project management, marketing experts and IT consulting services for your IT/software and web design project.
+              Net Studios services provides USA based project managers, consultants, sourcing, management, and marketing professionals using "Time and Materials" pricing structure.
             </div>
           </v-col>
         </v-row>
@@ -23,7 +23,7 @@
                 <v-card class="elevation-0 transparent ma-5">
                   <v-img
                     alt="Restaurant Online Ordering Pricing"
-                    src="@/assets/apps-mobile-online-ordering-restaurant-22.jpg"
+                    src="@/assets/net-studios-inc.jpg"
                   >
                   </v-img>
                 </v-card>
@@ -34,7 +34,7 @@
                 <v-row justify="center">
                   <v-col class="text-center pt-5 pb-5" cols="12">
                     <h2>
-                      IT On Demand Subscription Pricing
+                      Net Studios Inc. |  Subscription
                     </h2>
                   </v-col>
                 </v-row>
@@ -133,101 +133,103 @@ export default {
       totalVisible: 20,
       headers: [
         {
-          text: "FEATURES",
+          text: "SERVICES",
           align: "left",
           length: 10,
           totalVisible: 20,
           sortable: false,
           value: "name"
         },
-        { text: "SELF SERVICE", value: "pro" },
-        { text: "FULL SERVICE", value: "adv" }
-      ],
-      headers2: [
         {
-          text: "DESCRIPTION",
+          text: "NSI SUBSCRIPTION",
           align: "left",
           length: 10,
           totalVisible: 20,
           sortable: false,
-          value: "name"
+          value: "zee"
         },
-        { text: "SELF-SERVE", value: "pro" },
-        { text: "FULL-SERVE", value: "adv" }
+        {
+          text: "NO SUBSCRIPTION",
+          align: "left",
+          length: 10,
+          totalVisible: 20,
+          sortable: false,
+          value: "adv"
+        }
       ],
       desserts: [
         {
-          name: "Net Studios™ Membership:\n",
-          pro: "$99 per month",
-          adv: "$395 per month",
-          zee: "$149 per month"
+          name: "Lifetime NSI Access\n",
+          pro: "Included",
+          adv: "Per Task / Project",
+          zee: "$195.00 per month "
         },
         {
-          name: "IT-On-Demand\n",
+          name: "IT Services\n",
           pro: "Included",
-          adv: "Included",
-          zee: "Included"
+          adv: "Time + Materials ($120.00 per hour)",
+          zee: "Time + Materials ($80.00 per hour)"
         },
         {
-          name: "Global Network Access\n",
+          name: "IT Consulting\n",
           pro: "Included",
-          adv: "Included",
-          zee: "Included"
+          adv: "Monthly ($199.00 per hour)",
+          zee: "Monthly (4 Hours at no cost)"
         },
         {
-          name: "Priority Service:\n",
+          name: "IT On-Demand\n",
           pro: "Included",
-          adv: "Included",
+          adv: "Not Included",
           zee: "Included"
         },
         {
           name: "Discounted Rates:\n",
           pro: "Included",
-          adv: "Included",
+          adv: "Not Included",
           zee: "Included"
         },
         {
-          name: "Project Manager\n",
+          name: "USA Project Manager\n",
           pro: "N/A",
-          adv: "Included",
+          adv: "Not Included",
           zee: "Included"
         },
         {
           name: "Marketing Consultant:\n",
           pro: "N/A",
-          adv: "Included",
+          adv: "Not Included",
           zee: "Included"
         },
         {
-          name: "IT Consultant:\n",
+          name: "IT Management:\n",
           pro: "N/A",
-          adv: "Included",
+          adv: "Not Included",
           zee: "Included"
         },
         {
-          name: "Business Advisor:\n",
+          name: "Lifetime Support:\n",
           pro: "N/A",
-          adv: "Optional",
+          adv: "Not Included",
           zee: "Included"
         },
 
         {
           name: "24/7 Customer Support:\n",
           pro: "Skype / Email",
-          adv: "Phone / Skype / Email",
-          zee: "INCLUDED"
+          adv: "Limited",
+          zee: "Included"
         },
         {
-          name: "One-Time Service Fee:\n",
+          name: "One-Time Startup Fee:\n",
           pro: "$195.00",
           adv: "$195.00",
-          zee: "CALL FOR QUOTE"
+          zee: "$10.00"
         },
         {
           name: "Cost Per Month",
-          pro: "$99 per month",
-          adv: "$395 per month",
-          zee: "CALL FOR QUOTE"
+          pro: "N/A",
+          adv: "N/A\n",
+          zee: "$195.00 per month\n"
         }
       ],
       desserts2: [

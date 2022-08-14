@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e27f6e3959e68740fe99",
+    "revision": "58cff3a516b705d60792",
     "url": "/css/about.eff3667c.css"
   },
   {
@@ -14,10 +14,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "fb8c32dd41b930e189489c7a9d2e468f",
     "url": "/img/ad-designer.fb8c32dd.jpg"
-  },
-  {
-    "revision": "830304a2e02991b5f9c406a25a710ed2",
-    "url": "/img/apps-mobile-online-ordering-restaurant-22.830304a2.jpg"
   },
   {
     "revision": "c54f9f154e5067a69e9af12b5e944919",
@@ -136,6 +132,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/img/mock-training.71983a0f.svg"
   },
   {
+    "revision": "e0fb151a9690a7cd1f24f807bc394ded",
+    "url": "/img/net-studios-inc.e0fb151a.jpg"
+  },
+  {
     "revision": "64d08b31cc9649fddb5d53e15f131805",
     "url": "/img/online-ordering-restaurant-web-design.64d08b31.jpg"
   },
@@ -228,16 +228,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/img/yumapos-restaurant2.57f78d71.jpg"
   },
   {
-    "revision": "b3e9e05bd81cfe73ecfb0876ae7e08f0",
+    "revision": "8fde50e1259e1855ab096126ab051247",
     "url": "/index.html"
   },
   {
-    "revision": "e27f6e3959e68740fe99",
-    "url": "/js/about.5c26bb56.js"
+    "revision": "58cff3a516b705d60792",
+    "url": "/js/about.9d751ab0.js"
   },
   {
-    "revision": "5ea2d79f67c2ca1ae384",
-    "url": "/js/app.da8fab11.js"
+    "revision": "0ae5097a9b9e9705a328",
+    "url": "/js/app.b3312d7a.js"
   },
   {
     "revision": "f302db849f8e5890df3a",
