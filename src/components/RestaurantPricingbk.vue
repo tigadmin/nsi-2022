@@ -173,7 +173,7 @@ export default {
         {
           name: "IT Consulting\n",
           pro: "Included",
-          adv: "Monthly ($199.00 per hour)",
+          adv: "$199.00 per hour as needed",
           zee: "Monthly (4 Hours at no cost)"
         },
         {
@@ -223,7 +223,7 @@ export default {
           name: "One-Time Startup Fee:\n",
           pro: "$195.00",
           adv: "$195.00",
-          zee: "$10.00"
+          zee: "$100.00"
         },
         {
           name: "Cost Per Month",
