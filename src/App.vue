@@ -99,7 +99,7 @@
         <span class="px-4 flex caption font-weight-light"
           >&copy; {{ new Date().getFullYear() }} Net Studios Inc. | (803) 509-0090
 
-          <router-link to="/privacy"> Privacy</router-link> | |<router-link to="/terms"> Terms</router-link> | <router-link to="/license"> Become A Partner</router-link>
+          <router-link to="/privacy"> Privacy</router-link> | |<router-link to="/terms"> Terms</router-link> | <router-link to="/it-experts"> IT Pros Join Our Network</router-link>
         </span>
         <!--<v-col cols="12" sm="12" md="6">
         <v-btn
@@ -124,6 +124,9 @@
 <script>
 export default {
   name: "App",
+  mounted () {
+    window.scrollTo(0, 0);
+  },
   components: {},
 
   data: () => ({
@@ -133,41 +136,54 @@ export default {
       {
         icon: "shopping_cart",
         title: "IT ON DEMAND™",
-        to: "/small-business-consultants"
+        to: "/small-business-consultants",
+        meta: "IT-On-Demand Small Business"
       },
       {
         icon: "important_devices",
-        title: "IT MARKETPLACE",
-        to: "/ItMarketplace"
+        title: "IT SERVICES",
+        to: "/ItMarketplace",
+        meta: "IT Services For Small Business"
       },
       {
         icon: "list_alt",
         title: "HOW IT WORKS",
-        to: "/how-it-works"
+        to: "/how-it-works",
+        meta: "NSI How Does It Work"
+      },
+      {
+        icon: "list_alt",
+        title: "PRICING",
+        to: "/it-subscription",
+        meta: "In a hurry? Grab our brochure"
       },
       {
         icon: "login",
         title: "GET QUOTE",
-        to: "/get-started"
+        to: "/get-started",
+        meta: "Remote IT Services In The Cloud"
+
       }
     ],
     contacts: [
       {
         icon: "group_add",
-        title: "24/7 Support",
-        to: "/ticket"
+        title: "CONTACT",
+        to: "/contact",
+        meta: "24/7 Support"
+
       },
-      { icon: "phone", title: "(003) 509-0090", to: "/get-started" },
-      { icon: "email", title: "hello@netstudiosinc.com", to: "/it-subscription" },
       {
         icon: "login",
-        title: "Join Our Global IT Network",
+        title: "JOIN IT PRO NETWORK",
+        meta: "IT PRO NETWORK",
         to: "/it-experts"
       },
       {
         icon: "login",
-        title: "Business Advisors",
-        to: "/it-experts"
+        title: "BECOME A PARTNER",
+        meta: "Business Advisors Partners",
+        to: "/get-started"
       }
     ],
     drawers: ["Default (no property)", "Permanent", "Temporary"],

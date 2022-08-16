@@ -75,6 +75,15 @@ const routes = [
       import(/* webpackChunkName: "about" */ "../views/Restaurant-How.vue")
   },
   {
+    path: "/contact",
+    name: "Contact NSI",
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+        import(/* webpackChunkName: "about" */ "../views/Contact-ri.vue")
+  },
+  {
     path: "/project",
     name: "Project",
     // route level code-splitting
@@ -84,19 +93,28 @@ const routes = [
         import(/* webpackChunkName: "about" */ "../views/Project.vue")
   },
   {
+    path: "/license",
+    name: "License",
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+        import(/* webpackChunkName: "about" */ "../views/License.vue")
+  },
+  {
     path: "/get-started",
     target: "_blank",
     name: "startri",
     meta: { requiresAuth: true },
     beforeEnter() {
-      location.href = "http://market.netstudiosinc.com/account/info";
+      location.href = "https://forms.monday.com/forms/820a86755030573b68ca284478a2e283?r=use1";
     }
   },
   {
     path: "/ticket",
     target: "_blank",
     beforeEnter() {
-      location.href = "https://share.hsforms.com/14WIo9mp9QcCNCCU-8eXZag42zg1";
+      location.href = "https://forms.monday.com/forms/036802c2ebde4d954c67777d53ea3859?r=use1";
     }
   },
   {
@@ -137,15 +155,6 @@ const routes = [
     }
   },
   {
-    path: "/get-started",
-    target: "_blank",
-    name: "startri",
-    meta: { requiresAuth: true },
-    beforeEnter() {
-      location.href = "https://share.hsforms.com/1JCrzZ9qrSJC_Sjaayt5_rw42zg1";
-    }
-  },
-  {
     path: "/license",
     target: "_blank",
     beforeEnter() {
@@ -171,14 +180,7 @@ const routes = [
     path: "/ticket",
     target: "_blank",
     beforeEnter() {
-      location.href = "https://share.hsforms.com/14WIo9mp9QcCNCCU-8eXZag42zg1";
-    }
-  },
-  {
-    path: "/ticket",
-    target: "_blank",
-    beforeEnter() {
-      location.href = "https://share.hsforms.com/14WIo9mp9QcCNCCU-8eXZag42zg1";
+      location.href = "https://forms.monday.com/forms/036802c2ebde4d954c67777d53ea3859?r=use1";
     }
   },
   {
@@ -186,7 +188,7 @@ const routes = [
     target: "_blank",
     beforeEnter() {
       location.href =
-        "https://meetings.hubspot.com/jason97?_ga=2.202697877.580962950.1593951101-228482065.1591022274";
+        "https://forms.monday.com/forms/e8845f5b52af25bd6e86f41198c64507?r=use1";
     }
   },
   {
@@ -202,7 +204,7 @@ const routes = [
     target: "_blank",
     beforeEnter() {
       location.href =
-        "https://indd.adobe.com/view/ed30c5bd-e43b-4b90-906e-67ce39610d38";
+        "https://indd.adobe.com/view/33f1cb50-cde2-46c3-82f9-81abf8011e6f";
     }
   },
   {
@@ -215,11 +217,10 @@ const routes = [
       import(/* webpackChunkName: "about" */ "../views/About.vue")
   }
 ];
+export default router;
 
 const router = new VueRouter({
-  mode: "history",
+  mode: 'hash',
   base: process.env.BASE_URL,
   routes
 });
-
-export default router;

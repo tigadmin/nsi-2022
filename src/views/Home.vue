@@ -19,6 +19,9 @@ import Clients from "@/components/Clients.vue";
 
 export default {
   name: "Home",
+  mounted() {
+    window.scrollTo(0, 0);
+  },
   components: {
     HelloWorld,
     Clients,

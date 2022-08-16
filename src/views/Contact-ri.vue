@@ -4,7 +4,7 @@
     <v-layout align-center class="my-5" column wrap>
       <v-flex sm8 xs10>
         <div class="text-xs-center pb-4">
-          <div class="flex display-1 font-weight-light">24/7 Support</div>
+          <div class="flex display-1 font-weight-light">Contact NSI | 24/7 Support</div>
         </div>
       </v-flex>
       <v-flex xs12>
@@ -36,11 +36,11 @@
                         justify="end"
                         rounded
                       >
-                        SUBMIT TICKET</v-btn
+                        GET SUPPORT</v-btn
                       >
                     </router-link>
                     <spacer></spacer>
-                    <router-link to="/consult">
+                    <router-link to="/get-started">
                       <v-btn
                         @click.stop="dialog = !dialog"
                         aria-label="REQUEST MEETING"
@@ -50,24 +50,23 @@
                         flat
                         justify="end"
                         rounded
-                        >SCHEDULE MEETING</v-btn
-                      >
+                        >SUBMIT PROJECT</v-btn>
                     </router-link>
-                    <!--<spacer></spacer>
-                      <router-link to="/consult">
+                    <spacer></spacer>
+                      <router-link to="/brochure">
                         <v-btn
                           class="ml-3"
                           @click.stop="dialog = !dialog"
-                          aria-label="Knowledge BASE"
+                          aria-label="Get Brochure"
                           color="blue"
                           justify="end"
                           dark
                           flat
                           rounded
                         >
-                          KNOWLEDGE BASE</v-btn
+                          DOWNLOAD BROCHURE</v-btn
                         >
-                      </router-link>-->
+                      </router-link>
                   </span>
                 </v-card-title>
                 <div class="text-xs-left">
@@ -83,7 +82,7 @@
                 <div class="text-xs-left">
                   <v-list>
                     <v-list-tile-content class="ma-5"
-                      ><b>USA Corporate: </b> 1541-D Wade Hampton blvd.
+                      ><b>NSI USA Corporate: </b> 1541-D Wade Hampton blvd.
                       Greenville, SC 29609
                     </v-list-tile-content>
                   </v-list>
@@ -92,6 +91,13 @@
                   <v-list>
                     <v-list-tile-content class="ma-5"
                       ><b>Telephone: </b> (803) 261-5110
+                    </v-list-tile-content>
+                  </v-list>
+                </div>
+                <div class="text-xs-left">
+                  <v-list>
+                    <v-list-tile-content class="ma-5"
+                    ><b>Email: </b> sales@netstudiosinc.com
                     </v-list-tile-content>
                   </v-list>
                 </div>

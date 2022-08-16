@@ -168,7 +168,7 @@ export default {
           name: "IT Services\n",
           pro: "Included",
           adv: "Time + Materials ($120.00 per hour)",
-          zee: "Time + Materials ($80.00 per hour)"
+          zee: "Time + Materials ($60.00 per hour)"
         },
         {
           name: "IT Consulting\n",
