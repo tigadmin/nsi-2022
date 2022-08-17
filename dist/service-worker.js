@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.114b2e8fa561850ed3f4998f203c957a.js"
+  "/precache-manifest.db6e2c6c670929e2450f7eb6f8dc8f81.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "netstudiosinc.com"});

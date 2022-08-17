@@ -228,7 +228,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/img/yumapos-restaurant2.57f78d71.jpg"
   },
   {
-    "revision": "3b7aed1535f4b0a007f1235be91ba3c7",
+    "revision": "775e59074b6039c18e9bee181914c9a2",
     "url": "/index.html"
   },
   {
@@ -236,8 +236,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/js/about.560cfcd9.js"
   },
   {
-    "revision": "aadc5960e1402be23eac",
-    "url": "/js/app.10b22c19.js"
+    "revision": "8cccd1ccfbc6b408fe9b",
+    "url": "/js/app.eda6f1b1.js"
   },
   {
     "revision": "689ea140861e7d0d01d6",
