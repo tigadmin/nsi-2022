@@ -8,7 +8,7 @@
               Remote IT Services For Small Business
             </div>
             <div class="flex subheading  font-weight-light">
-              Net Studios services provides USA based project managers, consultants, sourcing, management, and marketing professionals using "Time and Materials" pricing structure.
+              All IT services are invoiced on a time-and-materials basis. Each client pays upfront of 10 hour blocks of time at the price of $80 per hour (USD). The client shall pay an invoice on 10 hour blocks of time in advanced. The developers agrees to perform 10 hours of work based on the pre-payment of clients invoice.
             </div>
           </v-col>
         </v-row>

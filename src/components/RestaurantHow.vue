@@ -9,7 +9,7 @@
                 How It Works
               </div>
               <div class="flex subheading font-weight-light">
-                IT-ON-DEMAND solutions are designed to help your business plan, build,  and deploy multi-channel solutions utilizing technology channels with minimized risks for rapid growth and success.
+                Net Studios Inc is your IT team in the cloud offering IT-ON-DEMAND solutions designed to help your business plan, build, and deploy technology with minimized risks for rapid growth and success.
                 Our team brings 23+ years of experience to the table, which is vital for any business, especially if you're not technologically savvy.
               </div>
             </div>
