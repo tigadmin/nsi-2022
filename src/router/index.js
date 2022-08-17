@@ -166,14 +166,14 @@ const routes = [
     path: "/terms",
     target: "_blank",
     beforeEnter() {
-      location.href = "https://www.yumapos.com/restaurant-pos/terms-2/";
+      location.href = "https://www.guru.com/freelancers/netstudios-inc";
     }
   },
   {
-    path: "/privacy",
+    path: "/projects",
     target: "_blank",
     beforeEnter() {
-      location.href = "https://www.yumapos.com/restaurant-pos/privacy/";
+      location.href = "https://www.guru.com/freelancers/netstudios-inc/portfolio";
     }
   },
   {

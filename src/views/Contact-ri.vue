@@ -53,6 +53,19 @@
                         >SUBMIT PROJECT</v-btn>
                     </router-link>
                     <spacer></spacer>
+                    <router-link to="/projects">
+                      <v-btn
+                          @click.stop="dialog = !dialog"
+                          aria-label="REQUEST MEETING"
+                          class="ml-3"
+                          color="blue"
+                          dark
+                          flat
+                          justify="end"
+                          rounded
+                      >CASEFOLIO</v-btn>
+                    </router-link>
+                    <spacer></spacer>
                       <router-link to="/brochure">
                         <v-btn
                           class="ml-3"
